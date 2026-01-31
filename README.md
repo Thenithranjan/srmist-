@@ -1,19 +1,29 @@
 # EcoSense - Smart Home Energy Monitor
 
+![EcoSense Home](public/screenshots/home-hero.png)
+
 EcoSense is a modern, responsive, and real-time dashboard designed to monitor and manage smart home energy consumption. Built with **React**, **TypeScript**, and **Vite**, it offers a premium user interface for visualizing electrical parameters like Voltage, Current, and Power, along with cost estimation and safety alerts.
 
 ## 🚀 Features
 
--   **Real-Time Monitoring**: Live gauges for Voltage (V), Current (A), and Power (W).
--   **Interactive Graphs**: Visualization of power consumption trends over time using **Recharts**.
+### Real-Time Dashboard
+Live gauges for Voltage (V), Current (A), and Power (W) with instant visual feedback.
+![Live Dashboard](public/screenshots/live-dashboard.png)
+
+### Intelligent Monitoring
 -   **Cost Estimation**: Intelligent cost estimator card to track estimated electricity bills.
 -   **Safety Alerts**: Visual indicators for system safety status.
 -   **Bandwidth Saver Mode**: specialized mode to reduce data usage.
--   **Modern UI/UX**:
-    -   Sleek Dark Mode & Light Mode support.
-    -   Responsive design using **Tailwind CSS**.
-    -   Glassmorphism effects and smooth animations.
-    -   built with **Shadcn UI** components for a polished look.
+
+![Safety Rules](public/screenshots/firewall-intro.png)
+
+### Why EcoSense?
+We address common issues with traditional smart meters: bandwidth waste, cloud dependency, and lack of actionable data.
+![Problem Statement](public/screenshots/problem-statement.png)
+
+### Tech Highlights
+-   **Modern UI/UX**: Sleek Dark Mode, glassmorphism effects, and smooth animations using **Framer Motion** and **Tailwind CSS**.
+-   **Responsive Design**: Fully responsive layout built with **Shadcn UI** components.
 
 ## 🛠️ Tech Stack
 
@@ -40,7 +50,7 @@ Ensure you have [Node.js](https://nodejs.org/) (v18 or higher) installed.
 1.  **Clone the Repository**
     ```bash
     git clone https://github.com/Thenithranjan/srmist-.git
-    cd ecosystem-dashboard-84
+    cd ecosense-dashboard-84
     ```
 
 2.  **Install Dependencies**
@@ -70,7 +80,7 @@ EcoSense/
 │   ├── pages/           # Application pages (Dashboard, etc.)
 │   ├── App.tsx          # Main application component
 │   └── main.tsx         # Entry point
-├── public/              # Static assets
+├── public/              # Static assets and screenshots
 ├── index.html           # HTML entry point
 ├── package.json         # Dependencies and scripts
 ├── tailwind.config.ts   # Tailwind configuration
