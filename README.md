@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+# EcoSense - Smart Home Energy Monitor
 
-## Project info
+EcoSense is a modern, responsive, and real-time dashboard designed to monitor and manage smart home energy consumption. Built with **React**, **TypeScript**, and **Vite**, it offers a premium user interface for visualizing electrical parameters like Voltage, Current, and Power, along with cost estimation and safety alerts.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Features
 
-## How can I edit this code?
+-   **Real-Time Monitoring**: Live gauges for Voltage (V), Current (A), and Power (W).
+-   **Interactive Graphs**: Visualization of power consumption trends over time using **Recharts**.
+-   **Cost Estimation**: Intelligent cost estimator card to track estimated electricity bills.
+-   **Safety Alerts**: Visual indicators for system safety status.
+-   **Bandwidth Saver Mode**: specialized mode to reduce data usage.
+-   **Modern UI/UX**:
+    -   Sleek Dark Mode & Light Mode support.
+    -   Responsive design using **Tailwind CSS**.
+    -   Glassmorphism effects and smooth animations.
+    -   built with **Shadcn UI** components for a polished look.
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+-   **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+-   **Icons**: [Lucide React](https://lucide.dev/)
+-   **Charts**: [Recharts](https://recharts.org/)
+-   **State Management**: [TanStack Query](https://tanstack.com/query/latest)
+-   **Routing**: [React Router](https://reactrouter.com/)
+-   **Form Handling**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## ⚡ Installation & Setup
 
-Changes made via Lovable will be committed automatically to this repo.
+Follow these steps to get the project running locally:
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Ensure you have [Node.js](https://nodejs.org/) (v18 or higher) installed.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Steps
 
-Follow these steps:
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/Thenithranjan/srmist-.git
+    cd ecosystem-dashboard-84
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3.  **Run Development Server**
+    ```bash
+    npm run dev
+    ```
+    The app should now be running at `http://localhost:8080/`.
 
-# Step 3: Install the necessary dependencies.
-npm i
+4.  **Build for Production**
+    ```bash
+    npm run build
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📂 Project Structure
+
+```
+EcoSense/
+├── src/
+│   ├── components/      # Reusable UI components (shadcn, custom)
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions
+│   ├── pages/           # Application pages (Dashboard, etc.)
+│   ├── App.tsx          # Main application component
+│   └── main.tsx         # Entry point
+├── public/              # Static assets
+├── index.html           # HTML entry point
+├── package.json         # Dependencies and scripts
+├── tailwind.config.ts   # Tailwind configuration
+└── vite.config.ts       # Vite configuration
 ```
 
-**Edit a file directly in GitHub**
+## 🤝 Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Contributions are welcome! Please follow these steps:
 
-**Use GitHub Codespaces**
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/YourFeature`).
+3.  Commit your changes (`git commit -m 'Add some feature'`).
+4.  Push to the branch (`git push origin feature/YourFeature`).
+5.  Open a Pull Request.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📄 License
 
-## What technologies are used for this project?
+This project is licensed under the MIT License.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**EcoSense** — Empowering you to monitor your energy, one watt at a time.
